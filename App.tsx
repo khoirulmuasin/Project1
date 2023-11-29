@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { View, Text, Image, Dimensions, StyleSheet, StatusBar } from "react-native";
 import imgBanner from './source/assets/images/awan.jpg';
 import OvoComponent from "./source/component/OvoComponent";
+import FiturUtama from "./source/component/FiturUtama";
 
 const { heigh, width } = Dimensions.get("window")
 const styles = StyleSheet.create({
@@ -50,6 +51,9 @@ class Home extends Component {
                     </View>
                     <View style={styles.garisDiOvo}></View>
                     <OvoComponent />
+                </View>
+                <View style={{ marginHorizontal: 18 }}>
+                    <FiturUtama />
                 </View>
             </View>
         )
