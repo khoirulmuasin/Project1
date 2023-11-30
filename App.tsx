@@ -3,6 +3,7 @@ import { View, Text, Image, Dimensions, StyleSheet, StatusBar } from "react-nati
 import imgBanner from './source/assets/images/awan.jpg';
 import OvoComponent from "./source/component/OvoComponent";
 import FiturUtama from "./source/component/FiturUtama";
+import PromoItems from './source/component/PromoItems'
 
 const { heigh, width } = Dimensions.get("window")
 const styles = StyleSheet.create({
@@ -36,6 +37,12 @@ const styles = StyleSheet.create({
         backgroundColor: '#adadad',
         marginTop: 10,
     },
+    divider: {
+        width: width,
+        height: 15,
+        backgroundColor: '#ededed',
+        marginVertical: 15
+    }
 })
 class Home extends Component {
     render() {
@@ -54,6 +61,9 @@ class Home extends Component {
                 </View>
                 <View style={{ marginHorizontal: 18 }}>
                     <FiturUtama />
+                </View>
+                <View style={styles.divider}>
+                    <PromoItems />
                 </View>
             </View>
         )
