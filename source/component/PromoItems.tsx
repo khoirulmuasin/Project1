@@ -11,21 +11,25 @@ const PromoItems = () => {
 
                 text="MEI Sedap"
                 diskon="Diskon 40%"
+                masaberlaku="Until 10 Mar"
             />
             <PromoItemsSub
                 image={{ uri: "https://shopee.co.id/inspirasi-shopee/wp-content/uploads/2021/11/10-Makanan-Khas-Bandung.webp" }}
 
                 text="Mei Madura Enak"
+                masaberlaku="Until 10 Mar"
             />
             <PromoItemsSub
                 image={{ uri: "https://www.teakpalace.com/image/cache/catalog/artikel/gambar-makanan-paling-enak-sate-kambing-1000x750h.jpg" }}
                 text="Sate Madura Enak"
                 diskon="Diskon 40%"
+                masaberlaku="Until 10 Mar"
             />
             <PromoItemsSub
                 image={{ uri: "https://awsimages.detik.net.id/community/media/visual/2021/04/22/5-makanan-enak-dari-indonesia-dan-malaysia-yang-terkenal-enak-5.jpeg?w=600&q=90" }}
                 text="Nasi Goreng Enak"
                 diskon="Diskon 40%"
+                masaberlaku="Until 10 Mar"
             />
 
 

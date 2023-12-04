@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { View, Text, StyleSheet, Dimensions, Image, } from 'react-native';
-import Icon from 'react-native-vector-icons/Ionicons'
+import Icon from "react-native-vector-icons/Ionicons"
 
 const { width } = Dimensions.get('window')
 const styles = StyleSheet.create({
@@ -43,8 +43,9 @@ const PromoItemsSub = (props) => {
 
                     <View></View>
             }
-            <View>
-                <Icon name="ios-calendar" size={20} color="#575757" />
+            <View style={{ marginLeft: 10, marginBottom: 8, flexDirection: "row" }}>
+                <Icon name="ios-calendar" size={16} color="#575757" />
+                <Text style={{ marginLeft: 8, fontSize: 13, color: '#575757' }}>{props.masaberlaku}</Text>
             </View>
         </View>
     )
